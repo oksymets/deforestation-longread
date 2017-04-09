@@ -161,6 +161,9 @@ h1 {
   background-attachment: fixed;
   background-position: top center;
   background-size: cover; }
+  @media (max-width: 1024px) {
+    .parallax [class*="bg-"] {
+      background-attachment: scroll; } }
   .parallax [class*="bg-"]:nth-child(2n) {
     box-shadow: inset 0 0 1em #111; }
 .parallax .bg-poland {
