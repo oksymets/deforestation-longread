@@ -44,8 +44,14 @@ h1 {
   width: 45%;
   text-align: center;
   color:#FFF;
+  @media #{$brk-xlarge} {
+    margin-top: 25%;
+  }
   @media #{$brk-large} {
     margin-top: 20%;
+  }
+  @media #{$brk-medium} {
+    margin-top: 15%;
   }
   @media #{$brk-narrow} {
     margin-top: 30%;
@@ -64,6 +70,7 @@ h1 {
 
     @media #{$brk-narrow} {
       background-attachment : scroll;
+      margin-top:5em;
     }
     
     &:nth-child( 2n ) {

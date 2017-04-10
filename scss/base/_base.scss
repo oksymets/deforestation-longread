@@ -33,11 +33,11 @@ h1 {
 }
 
 h2 {
-  @include text(2em, 2em, bold);
+  @include text(2em, 1.7em, bold);
 }
 
 h3 {
-  @include text(1.6em, 2.2em, bold);
+  @include text(1.6em, 1.7em, bold);
 }
 
 p {
